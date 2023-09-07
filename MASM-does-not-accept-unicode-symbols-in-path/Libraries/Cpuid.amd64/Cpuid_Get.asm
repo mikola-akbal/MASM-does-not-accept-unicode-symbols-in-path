@@ -1,0 +1,17 @@
+INCLUDE Cpuid.inc
+
+_DATA SEGMENT
+_DATA ENDS
+
+_TEXT SEGMENT
+
+	PUBLIC Cpuid_Get
+	Cpuid_Get PROC
+
+		ret
+
+	Cpuid_Get ENDP
+
+_TEXT ENDS
+
+END
